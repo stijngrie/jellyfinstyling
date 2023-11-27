@@ -114,3 +114,9 @@
     .itemBackdrop {width: 100vw !important; height: 100vh !important; position: fixed; filter: brightness(14%);}
     .detailPageWrapperContainer {margin-top: 5em;}
 }
+
+.emby-input,
+.emby-textarea,
+.emby-select {
+  border-color: #BF40BF;
+}
