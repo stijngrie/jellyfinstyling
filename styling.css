@@ -80,5 +80,5 @@
 #castContent .cardScalable {width:  3.8cm !important; height: 3.8cm !important;}
 
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
-.backdropImage {filter: blur(30px) saturate(200%) contrast(160%) brightness(20%);}
+.backdropImage {filter: blur(10px) saturate(200%) contrast(160%) brightness(20%);}
 .backgroundContainer.withBackdrop {background: url('https://www.vecteezy.com/video/1803396-falling-snow-overlay-loop');}
