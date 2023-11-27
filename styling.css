@@ -54,10 +54,11 @@
 .raised {background: #00a4dc;}
 
 /*Theme some dialogues*/
-.dialog {background-color: rgba(191, 64, 191, 0.9);}
+.dialog {background-color: rgba(0, 0, 0, 0.8);}
 .actionSheetMenuItem:hover {background-color: rgba(0, 164, 220, 0.2);}
-.mainDrawer {background-color: rgba(191, 64, 191, 0.9);}
+.mainDrawer {background-color: rgba(0, 0, 0, 0.8);}
 .navMenuOption:hover {background: rgba(0, 164, 220, 0.2);}
+.formDialogHeader, .formDialogFooter {background-color: #101010 !important;}
 
 /*Tweak entry fields*/
 .selectContainer {margin-right: 1em !important;}
