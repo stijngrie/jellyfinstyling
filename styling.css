@@ -21,3 +21,21 @@
 /*Shrink and square (or round) cast thumnails*/
 #castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
 #castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+
+/*Rounded corners and square hover buttons*/
+.cardContent-button, 
+.cardContent-shadow, 
+.itemDetailImage, 
+.cardOverlayButton-hover, 
+.cardOverlayContainer,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light
+{border-radius: 10px;}
+
+/*Minimalistic play buttons*/
+.listItemImageButton-icon {padding: 0;}
+.cardOverlayFab-primary {background-color: #00000000;}
+.cardOverlayButtonIcon {background-color: #00000000 !important;}
