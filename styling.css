@@ -96,7 +96,7 @@
 
 .itemProgressBarForeground {
     border-radius: 0.25em 0px 0px 0.25em;
-    background-image: linear-gradient(to right, rgba(191, 64, 191, 0.8), rgba(236, 198, 236, 0.8));
+    background-image: linear-gradient(to right, rgba(217, 140, 217, 0.8), rgba(236, 198, 236, 0.8));
 }
 
 .emby-input,
