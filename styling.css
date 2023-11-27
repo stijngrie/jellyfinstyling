@@ -79,7 +79,7 @@
 #castContent .cardScalable {width:  3.8cm !important; height: 3.8cm !important;}
 
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
-.backdropImage {filter: blur(8px) saturate(200%) contrast(160%) brightness(20%);}
+.backdropImage {filter: blur(8px) saturate(150%) contrast(160%) brightness(20%);}
 .backgroundContainer.withBackdrop {
     background: url('https://stijngrie.github.io/jellyfinstyling/snow.png');
     filter: blur(3px) brightness(60%);
@@ -91,12 +91,12 @@
     margin-bottom: 0.3em;
     margin-left: 0.15em;
     margin-right: 0.15em;
-    border-radius: 3px;
+    border-radius: 0.25em;
 }
 
 .itemProgressBarForeground {
-    border-radius: 3px 0px 0px 3px;
-    background-color: rgba(191, 64, 191, 0.8); 
+    border-radius: 0.25em 0px 0px 0.25em;
+    background-image: linear-gradient(to right, rgba(191, 64, 191, 0.8), rgba(236, 198, 236, 0.8));
 }
 
 /*Tweak series/movie/album title screen*/
