@@ -42,12 +42,19 @@
 {border-radius: 10px !important;}
 
 /*Minimalistic play buttons*/
-.listItemImageButton-icon {padding: 0;}
 .cardOverlayFab-primary {background-color: #00000000;}
 .cardOverlayButtonIcon {background-color: #00000000 !important;}
+.cardOverlayContainer {background-color: rgba(0, 0, 0, 0.7);}
 
 /*Theme some dialogues*/
 .dialog {border-radius: 6px !important; background-color: rgba(0, 0, 0, 0.9);}
 .actionSheetMenuItem:hover {background-color: rgba(, 0.2);}
 .mainDrawer {background-color: rgba(#BF40BF, 0.9);}
 .navMenuOption:hover {background: rgba(#BF40BF, 0.2);}
+
+/*Theming for the dasboard*/
+.paperList, .visualCardBox {background-color: #000; border-radius: 10px;}
+.listItemIcon {border-radius: 6px !important;}
+.listItem-border {border-color: rgba(255, 255, 255, 0.22) !important;}
+.backgroundContainer {background-color: #101010;}
+.raised {background: #00a4dc;}
