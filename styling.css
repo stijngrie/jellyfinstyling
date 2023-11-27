@@ -98,3 +98,19 @@
     border-radius: 3px 0px 0px 3px;
     background-color: rgba(191, 64, 191, 0.8); 
 }
+
+/*Tweak series/movie/album title screen*/
+.detailLogo {display: none;}
+.detailPagePrimaryContainer {background: rgba(0,0,0,0) !important;}
+@media all and (min-width: 100em){
+    .itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important;}
+    .itemBackdrop {height: 23vh !important; background-image: none !important;}
+}
+@media all and (min-width: 32em) and (max-width: 100em){
+    .itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important;}
+    .itemBackdrop {height: 10em !important; background-image: none !important;}
+}
+@media all and (max-width: 32em) {
+    .itemBackdrop {width: 100vw !important; height: 100vh !important; position: fixed; filter: brightness(14%);}
+    .detailPageWrapperContainer {margin-top: 5em;}
+}
