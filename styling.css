@@ -125,6 +125,6 @@ h1 {
     font-size: 2em;
 }
 
-.detailImageContainer .portraitCard {
+.layout-desktop .detailImageContainer .portraitCard {
     margin-top: 12.5vh;
 }
