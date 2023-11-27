@@ -80,4 +80,13 @@
 
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
 .backdropImage {filter: blur(80px) saturate(200%) contrast(160%) brightness(20%);}
+.backdropImage::after {
+    content: '';
+    position: absolute:
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
 .backgroundContainer.withBackdrop {background-color: rgba(0,0,0,0);}
