@@ -85,4 +85,9 @@
 
 .itemProgressBar {
     height: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.itemProgressBarForeground {
+    background-color: #BF40BF;
 }
