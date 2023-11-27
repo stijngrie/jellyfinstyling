@@ -39,3 +39,9 @@
 .listItemImageButton-icon {padding: 0;}
 .cardOverlayFab-primary {background-color: #00000000;}
 .cardOverlayButtonIcon {background-color: #00000000 !important;}
+
+/*Theme some dialogues*/
+.dialog {border-radius: 6px !important; background-color: rgba(0, 0, 0, 0.9);}
+.actionSheetMenuItem:hover {background-color: rgba(, 0.2);}
+.mainDrawer {background-color: rgba(#BF40BF, 0.9);}
+.navMenuOption:hover {background: rgba(#BF40BF, 0.2);}
