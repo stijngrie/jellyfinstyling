@@ -73,3 +73,13 @@
 .emby-input:focus, .emby-textarea;focus, .emby-select-withcolor:focus 
 {background: rgba(0, 0, 0, 0.5); border: 0.01em solid #00a4dcc2 !important;}
 .trackSelections {max-width: 22em;}
+
+/*Shrink and square (or round) cast thumnails*/
+#castContent .card.overflowPortraitCard {width: 4.2cm !important; font-size: 90% !important;}
+.cardPadder {background-color: #0000 !important; box-shadow: none !important;}
+
+/*Correct image aspect ratio behaviour, set border-radius to zero for square tiles*/
+#castContent .cardOverlayContainer.itemAction,
+#castContent .cardImageContainer
+{border-radius: 6px !important;}
+#castContent .cardScalable {width:  3.8cm !important; height: 3.8cm !important;}
