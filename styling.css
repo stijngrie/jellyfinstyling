@@ -82,28 +82,3 @@
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
 .backdropImage {filter: blur(10px) saturate(200%) contrast(160%) brightness(20%);}
 .backgroundContainer.withBackdrop {background: url('https://www.vecteezy.com/video/1803396-falling-snow-overlay-loop');}
-
-/*Tweak series/movie/album title screen*/
-.detailLogo {display: none;}
-.detailPagePrimaryContainer {background: rgba(0,0,0,0) !important;}
-@media all and (min-width: 100em){
-    .itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important;}
-    .itemBackdrop {height: 23vh !important; background-image: none !important;}
-}
-@media all and (min-width: 32em) and (max-width: 100em){
-    .itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important;}
-    .itemBackdrop {height: 10em !important; background-image: none !important;}
-}
-@media all and (max-width: 32em) {
-    .itemBackdrop {width: 100vw !important; height: 100vh !important; position: fixed; filter: brightness(14%);}
-    .detailPageWrapperContainer {margin-top: 5em;}
-}
-
-/*Tweak series/movie/album title screen*/
-.detailPagePrimaryContainer {background: rgba(0, 0, 0, 0) !important; margin-top: 0 !important;}
-.itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important; background: none;}
-.itemBackdrop {height: 0; background-image: none !important;}
-.detailPageWrapperContainer {margin-top: 15vh;}
-.detailButtonHideonMobile {display: inline !important;}
-.detailFloatingButton {display: none !important;}
-.detailLogo {display: none;}
