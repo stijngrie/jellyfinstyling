@@ -91,6 +91,7 @@
 }
 
 .itemProgressBarForeground {
+    border-radius: 3px 0px 0px 3px;
     background-color: rgba(191, 64, 191, 0.8);
     
 }
