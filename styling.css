@@ -28,15 +28,18 @@
 .itemDetailImage, 
 .cardOverlayButton-hover, 
 .cardOverlayContainer,
+.cardImageContainer,
+.cardPadder,
 .listItemImage,
 .listItemImageButton,
 .listItemButton,
 .headerButton,
 .paper-icon-button-light,
-.cardScalable,
-.cardImageContainer,
-.cardContent,
-{border-radius: 10px;}
+.innerCardFooter,
+.blurhash-canvas,
+.actionSheetMenuItem:hover,
+.dialog
+{border-radius: 10px !important;}
 
 /*Minimalistic play buttons*/
 .listItemImageButton-icon {padding: 0;}
