@@ -82,7 +82,7 @@
 .backdropImage {filter: blur(8px) saturate(200%) contrast(160%) brightness(20%);}
 .backgroundContainer.withBackdrop {
     background: url('https://stijngrie.github.io/jellyfinstyling/snow.png');
-    filter: blur(3px) brightness(70%);
+    filter: blur(3px) brightness(60%) saturate(200%);
     background-repeat: no;
 }
 
