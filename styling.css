@@ -125,6 +125,6 @@ h1 {
     font-size: 2em;
 }
 
-.detailImageContainer {
+.layout-desktop .detailImageContainer .card {
     margin-top: 12.5vh;
 }
