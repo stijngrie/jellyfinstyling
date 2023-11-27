@@ -107,7 +107,7 @@
 
 /*Tweak series/movie/album title screen*/
 .detailLogo {display: none;}
-.detailPagePrimaryContainer {background: rgba(0,0,0,0) !important; margin-top: 10vh !important;}
+.detailPagePrimaryContainer {background: rgba(0,0,0,0) !important; margin-top: 30vh !important;}
 @media all and (min-width: 100em){
     .itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important;}
     .itemBackdrop {height: 23vh !important; background-image: none !important;}
