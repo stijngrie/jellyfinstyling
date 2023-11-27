@@ -81,4 +81,4 @@
 
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
 .backdropImage {filter: blur(30px) saturate(200%) contrast(160%) brightness(20%);}
-.backgroundContainer.withBackdrop {background: url('https://i.gifer.com/2ii9.gif');}
+.backgroundContainer.withBackdrop {background: transparent;}
