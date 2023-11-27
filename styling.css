@@ -38,7 +38,7 @@
 .blurhash-canvas,
 .actionSheetMenuItem:hover,
 .dialog
-{border-radius: 8px !important;}
+{border-radius: 10px !important;}
 
 /*Minimalistic play buttons*/
 .cardOverlayFab-primary {background-color: #00000000;}
@@ -46,7 +46,7 @@
 .cardOverlayContainer {background-color: rgba(0, 0, 0, 0.7);}
 
 /*Theming for the dasboard*/
-.paperList, .visualCardBox {background-color: #000; border-radius: 10px;}
+.paperList, .visualCardBox {background-color: #000; border-radius: 6px;}
 .listItemIcon {border-radius: 6px !important;}
 .listItem-border {border-color: rgba(255, 255, 255, 0.22) !important;}
 .backgroundContainer {background-color: #101010;}
@@ -75,7 +75,7 @@
 /*Correct image aspect ratio behaviour, set border-radius to zero for square tiles*/
 #castContent .cardOverlayContainer.itemAction,
 #castContent .cardImageContainer
-{border-radius: 6px !important;}
+{border-radius: 10px !important;}
 #castContent .cardScalable {width:  3.8cm !important; height: 3.8cm !important;}
 
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
@@ -103,15 +103,4 @@
 .emby-textarea,
 .emby-select {
   border-color: rgba(191, 64, 191, 0.8);
-}
-
-.skinHeader,
-.mainDrawer,
-.emby-input,
-.emby-textarea,
-.emby-select,
-.navMenuOption-selected,
-.cardBox,
-.paperList {
-  background: rgba(191, 64, 191, 0.8);
 }
