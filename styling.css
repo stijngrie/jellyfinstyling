@@ -107,7 +107,7 @@
 
 /*Tweak series/movie/album title screen*/
 .detailLogo {display: none;}
-.detailPagePrimaryContainer {background: rgba(0,0,0,0) !important;}
+.detailPagePrimaryContainer {background: rgba(0,0,0,0) !important; margin-top: 10vh !important;}
 @media all and (min-width: 100em){
     .itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important;}
     .itemBackdrop {height: 23vh !important; background-image: none !important;}
@@ -119,4 +119,8 @@
 @media all and (max-width: 32em) {
     .itemBackdrop {width: 100vw !important; height: 100vh !important; position: fixed; filter: brightness(14%);}
     .detailPageWrapperContainer {margin-top: 5em;}
+}
+
+h1 {
+    font-size: 2em;
 }
