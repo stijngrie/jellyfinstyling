@@ -4,19 +4,19 @@
 
 .indicator { background: #BF40BF !important; }
 
-/*Top menu transparency*/
+/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
-.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color:rgba(0, 0, 0, 0);}
-
-/*Adjust both "size-adjust" and "size" to modify size*/
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color: rgba(0, 0, 0, 0);}
 .headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
 .pageTitle {margin-top: auto; margin-bottom: auto;}
 .emby-tab-button {padding: 1.75em 1.7em;}
 
 /*Size episode preview images in a more compact way*/
+.listItemImageButton-icon {padding: 0;}
 .listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
 .listItem-content {height: 115px;}
 .secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
+.listItemImageButton {margin: auto; font-size: 1.6em !important;}
 
 /*Shrink and square (or round) cast thumnails*/
 #castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
@@ -39,7 +39,7 @@
 .blurhash-canvas,
 .actionSheetMenuItem:hover,
 .dialog
-{border-radius: 10px !important;}
+{border-radius: 8px !important;}
 
 /*Minimalistic play buttons*/
 .cardOverlayFab-primary {background-color: #00000000;}
@@ -58,3 +58,18 @@
 .listItem-border {border-color: rgba(255, 255, 255, 0.22) !important;}
 .backgroundContainer {background-color: #101010;}
 .raised {background: #00a4dc;}
+
+/*Theme some dialogues*/
+.dialog {background-color: rgba(#BF40BF, 0.9);}
+.actionSheetMenuItem:hover {background-color: rgba(0, 164, 220, 0.2);}
+.mainDrawer {background-color: rgba(#BF40BF, 0.9);}
+.navMenuOption:hover {background: rgba(0, 164, 220, 0.2);}
+
+/*Tweak entry fields*/
+.selectContainer {margin-right: 1em !important;}
+.checkboxOutline {border-radius: 6px; background-color: rgba(0, 0, 0, 0.5);}
+.emby-input, .emby-textarea, .emby-select-withcolor 
+{background: rgba(0, 0, 0, 0.5); border: 0.01em solid rgba(255, 255, 255, 0.22); border-radius: 6px;}
+.emby-input:focus, .emby-textarea;focus, .emby-select-withcolor:focus 
+{background: rgba(0, 0, 0, 0.5); border: 0.01em solid #00a4dcc2 !important;}
+.trackSelections {max-width: 22em;}
