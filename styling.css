@@ -89,4 +89,4 @@
     height: 100%;
     background-color: red;
 }
-.backgroundContainer.withBackdrop {background-color: rgba(0,0,0,0);}
+.backgroundContainer.withBackdrop {background-color: red;}
