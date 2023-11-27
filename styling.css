@@ -85,9 +85,13 @@
 
 .itemProgressBar {
     height: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    border-radius: 3px;
 }
 
 .itemProgressBarForeground {
-    background-color: #BF40BF;
+    background-color: rgba(191, 64, 191, 0.8);
+    
 }
