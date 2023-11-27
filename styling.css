@@ -35,7 +35,6 @@
 .listItemButton,
 .headerButton,
 .paper-icon-button-light,
-.innerCardFooter,
 .blurhash-canvas,
 .actionSheetMenuItem:hover,
 .dialog
@@ -85,9 +84,9 @@
 
 .itemProgressBar {
     height: 0.5em;
-    margin-bottom: 0.4em;
-    margin-left: 0.1em;
-    margin-right: 0.1em;
+    margin-bottom: 0.3em;
+    margin-left: 0.15em;
+    margin-right: 0.15em;
     border-radius: 3px;
 }
 
