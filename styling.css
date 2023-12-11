@@ -118,7 +118,7 @@ h1 {
 }
 
 .layout-desktop .detailImageContainer .portraitCard {
-    margin-top: 12.5vh;
+    top: 25% !important;
 }
 
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
