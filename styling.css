@@ -122,7 +122,7 @@ h1 {
 }
 
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
-.backdropImage {filter: blur(2px) saturate(120%) contrast(140%) brightness(20%);}
+.backdropImage {filter: blur(2px) saturate(120%) contrast(120%) brightness(20%);}
 .backgroundContainer.withBackdrop {
     background: url('https://stijngrie.github.io/jellyfinstyling/snow.png');
     filter: blur(3px) brightness(60%);
