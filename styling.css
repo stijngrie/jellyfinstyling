@@ -98,7 +98,7 @@
 }
 
 /*Tweak series/movie/album title screen*/
-/* .detailLogo {display: none;} */
+.detailLogo {display: none;}
 .detailPagePrimaryContainer {background: rgba(0,0,0,0) !important;}
 @media all and (min-width: 100em){
     .itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important;}
