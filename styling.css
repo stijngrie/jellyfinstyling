@@ -125,6 +125,7 @@ h1 {
 .backdropImage {filter: blur(2px) saturate(120%) contrast(120%) brightness(20%);}
 .backgroundContainer.withBackdrop {
 /*     background: url('https://stijngrie.github.io/jellyfinstyling/snow.png'); */
+    opacity: 0;
      filter: blur(3px) brightness(60%);
      background-repeat: no;
 }
