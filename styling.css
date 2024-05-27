@@ -1,5 +1,5 @@
 .playedIndicator {
-    background: #BF40BF !important;
+    background-image: linear-gradient(to right bottom, #B363D1, #0B9DD9 );
   }
 
 .indicator { background: #BF40BF !important; }
