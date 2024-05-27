@@ -2,7 +2,10 @@
     background-image: linear-gradient(to right bottom, #B363D1, #0B9DD9 );
   }
 
-.indicator { background: #BF40BF !important; }
+.indicator { 
+    background: #BF40BF !important;
+    background-image: linear-gradient(to right bottom, #B363D1, #0B9DD9 );
+}
 
 /*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
